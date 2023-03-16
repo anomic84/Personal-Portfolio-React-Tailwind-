@@ -1,9 +1,9 @@
 import React from 'react'
 
-const tech = () => {
+const Tech = () => {
   return (
-    <div>tech</div>
+    <div>Tech</div>
   )
 }
 
-export default tech
+export default Tech
