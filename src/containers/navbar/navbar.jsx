@@ -8,12 +8,12 @@ import './navbar.css'
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="flex w-full justify-between items-start pt-[2rem]">
-      <div className="flex items-center justify-start">
+    <div className="flex w-full justify-between items-center pt-[1rem] lg:pt-[2rem]">
+      <div className="flex w-full items-center justify-between">
         <div className="">
-          <p className="text-scred font-manrope font-semibold text-[27px]">Spencer C. Carlson</p>
+          <p className="text-scred font-manrope font-semibold text-[27px] pl-4">Spencer C. Carlson</p>
         </div>
-        <div className="hidden lg:flex flex-row items-around
+        <div className="hidden lg:flex flex-row items-between
          text-scred text-lg">
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#home">Home</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#projects">Projects</a></p>
@@ -23,12 +23,12 @@ const Navbar = () => {
         <div className="hidden text-scred mr-[2rem] lg:flex flex-column text-lg  items-center">
           <p className="flex-nowrap items-center pl-5 text-xl">Made with React   </p>
         </div>
-        <div className='hidden lg:flex'>
+        <div className='hidden lg:flex pr-4'>
           <FaReact className=" text-scred" />
           <SiTailwindcss className=" text-scred" />
         </div>
       </div>
-      <div className="mr-[2rem] lg:hidden">
+      <div className="pr-4 lg:hidden">
         {toggleMenu
           ? <FaTimes color="#530E1A" size={27} onClick={() => setToggleMenu(false)} />
           : <FaBars color="#530E1A" size={27} onClick={() => setToggleMenu(true)} />}
