@@ -5,7 +5,7 @@ import "./App.css"
 const App = () => {
     return (
         <div className="App w-full">
-        <div className="gradient__bg w-full">
+        <div className="gradient__bg w-full h-[100vh]">
             <Navbar />
             <Hero />
         </div>

@@ -14,18 +14,18 @@ const Navbar = () => {
           <p className="text-scred font-manrope font-semibold text-[27px] pl-4">Spencer C. Carlson</p>
         </div>
         <div className="hidden lg:flex flex-row items-between
-         text-scred text-lg">
+         text-scred text-lg 2xl:text-2xl">
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#home">Home</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#projects">Projects</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#tech">Technologies</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#footer">Contact</a></p>
         </div>
         <div className="hidden text-scred mr-[2rem] lg:flex flex-column text-lg  items-center">
-          <p className="flex-nowrap items-center pl-5 text-xl">Made with React   </p>
+          <p className="flex-nowrap items-center pl-5 text-xl 2xl:text-2xl">Made with React   </p>
         </div>
         <div className='hidden lg:flex pr-4'>
-          <FaReact className=" text-scred" />
-          <SiTailwindcss className=" text-scred" />
+          {/* <FaReact className=" text-scred" />
+          <SiTailwindcss className=" text-scred" /> */}
         </div>
       </div>
       <div className="pr-4 lg:hidden">
