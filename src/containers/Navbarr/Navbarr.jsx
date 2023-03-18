@@ -5,7 +5,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 
 
 
-const Navbar = () => {
+const Navbarr = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="flex w-full justify-between items-center pt-[1rem] lg:pt-[2rem]">
@@ -46,4 +46,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbarr
