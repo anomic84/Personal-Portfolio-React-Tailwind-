@@ -1,7 +1,7 @@
 import React from 'react'
 import { DiNpm, DiReact, DiSass } from 'react-icons/di';
 
-const Tech = () => {
+const Techr = () => {
   return (
 <section className="flex flex-col w-full pt-[16px] px-[16px] pb-0 mt-[-5rem] grid-cols-[1fr 1fr] mx-auto max-w-[1040px] md:pt-[32px] md:px-[48px] md:pb-0 " id="tech">
       <div className="w-[32px] h-[2px] rounded-[10px] gradient__bg3 my-[2rem] ml-[1rem] sm:w-[48px] sm:h-[4px] md:w-[64px] md:h-[6px]" />
@@ -35,4 +35,4 @@ const Tech = () => {
   )
 }
 
-export default Tech
+export default Techr

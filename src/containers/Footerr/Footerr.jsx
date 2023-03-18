@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
-const Footer = () => {
+const Footerr = () => {
   return (
     <section className="w-[calc(100vw-32)] ms:w-[calc(100vw-96)] pt-0 px-[16px] pb-[48px] sm:pt-[2rem] sm:px-[48px] sm:pb-[40px] max-w-[1040px] mx-[1rem] my-auto box-content" id="footer">
       <ul className=" pt-[32px] px-[4px] pb-[16px] sm:px-0 lg:pt-[40px] lg:pb-[28px] gap-[5px] sm:gap-[16px] lg:gap-[40px]
@@ -35,4 +35,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footerr

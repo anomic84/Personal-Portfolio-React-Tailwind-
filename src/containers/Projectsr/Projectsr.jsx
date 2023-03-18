@@ -2,7 +2,7 @@ import React from 'react'
 
 import { projects } from '../../constants/constants';
 import ProjectCard from '../../components/ProjectCard';
-const Projects = () => {
+const Projectsr = () => {
   return (
     <section className="flex flex-col w-full p-0 mt-0 mb-[-5rem] grid-cols-[1fr 1fr] mx-auto max-w-[1040px] gradient__bg2 md:pt-[58px] md:px-[16px] md:pb-0 " id="projects">
       {/* md:p-[32px 48px 0] */}
@@ -20,4 +20,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projectsr

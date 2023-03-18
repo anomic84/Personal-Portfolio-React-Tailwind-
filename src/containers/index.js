@@ -1,6 +1,6 @@
 // Middleware bewtween section's folder and App
 export { default as Navbarr } from './Navbarr/Navbarr';
 export { default as Heror } from './Heror/Heror';
-export { default as Projects } from './Projects/Projects';
-export { default as Tech } from './Tech/Tech';
-export { default as Footer } from './Footer/Footer';
+export { default as Projectsr } from './Projectsr/Projectsr';
+export { default as Techr } from './Techr/Techr';
+export { default as Footerr } from './Footerr/Footerr';
