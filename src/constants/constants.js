@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     title: 'Employee Tracker',
-    description: "An interface to allow user to manage their database of employees, as to which role (or job) they fit into, their pay, and who's their manager.This application gives the user the ability to add and view departments of their company, view and add roles to their company, and view or add employees, as well as update their information.",
+    description: "An interface to allow the user to manage their database of employees, as to which role (or job) they fit into, their pay, and who's their manager. This application gives the user the ability to add and view departments of their company, view and add roles to their company, and view or add employees, as well as update their information.",
     image: 'https://i.imgur.com/v2eHGt5.png',
     imagealt: 'Employee Tracker',
     tags: ['MySQL', 'Express', 'Node'],
