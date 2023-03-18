@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="flex flex-col py-[4rem] px-[2rem] lg:flex-row lg:items-center" id="home">
       <div className="flex items-center flex-col mb-[3rem] lg:flex-1">
         {/* lg:mr-[5rem] ^^^^? */}
-        <h1 className="font-manrope font-bold text-scred text-[48px] leading-[60px] text-center tracking-[-0.04em] lg:text-[62px] lg:leading-[75px]">Curious and Creative</h1>
+        <h1 className=" font-manrope font-bold bg-gradient-to-r from-scred to-scredhover text-transparent bg-clip-text text-[48px] leading-[60px] text-center tracking-[-0.04em] lg:text-[62px] lg:leading-[75px]">Curious and Creative</h1>
         <p className="font-manrope font-bold text-scred text-[14px] leading-[24px] sm:text-[16px] md:m-[1.5rem] md:text-[20px] md:leading-[27px]" >spencerccarlson0@gmail.com</p>
         {/* lg:m-[1.5rem] lg:text-[16px] lg:leading-[24px] ^^^^^^^?*/}
       </div>

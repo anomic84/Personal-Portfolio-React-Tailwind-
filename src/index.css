@@ -8,7 +8,9 @@
     margin: 0;
     padding: 0;
 }
-
+.gradient__bgred{
+    background: linear-gradient(89.97deg, #530E1A 1.84%, #af5963 102.67%)
+}
 .gradient__text2 {
     color: linear-gradient(121.57deg, #FFFFFF 18.77%, #d8bfbf 60.15%)
 }

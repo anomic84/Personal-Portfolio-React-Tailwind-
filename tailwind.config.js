@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1550px',
+        '4xl': '1920px',
+      },
       fontFamily: {
         'climate': 'Climate Crisis, cursive',
         'manrope': 'Manrope, sans-serif'

@@ -7,7 +7,7 @@ const ProjectCard = ({ image, imagealt, title, description, tags, source, visit 
             <img className="w-full object-cover
              overflow-hidden" src={image} alt={imagealt} />
             <div className="text-center z-20 w-full">
-                <h3 className="font-manrope font-medium tracking-[1px] text-projcolor py-[0.5rem] px-0 text-[20px] md:text-[3rem]">{title}</h3>
+                <h3 className="font-manrope font-medium tracking-[1px] text-projcolor py-[0.5rem] px-0 text-[20px] md:text-[2rem]">{title}</h3>
                 <hr className="w-[50px] h-[3px] my-[20px] mx-auto border-0 bg-[#d0bb57] " />
             </div>
             <p className="p-[.3rem] sm:py-0 sm:px-[50px] text-[#e4e6e7] leading-[24px] text-justify">{description}</p>
