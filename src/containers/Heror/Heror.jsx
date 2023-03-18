@@ -1,7 +1,7 @@
 import React from 'react'
 import me from '../../assets/Me.jpg'
 
-const Hero = () => {
+const Heror = () => {
   return (
     <div className="flex flex-col py-[4rem] px-[2rem] lg:flex-row lg:items-center" id="home">
       <div className="flex items-center flex-col mb-[3rem] lg:flex-1">
@@ -20,4 +20,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Heror

@@ -7,7 +7,7 @@ const App = () => {
         <div className="App w-full gradient__bg2">
             <div className="gradient__bg w-full md:h-[100vh]">
                 <Navbarr />
-                <Hero />
+                <Heror />
             </div>
             <Projects />
             <div className="bg-whitebg">
