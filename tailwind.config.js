@@ -21,7 +21,8 @@ module.exports = {
         scred: '#530E1A',
         scredhover: '#8c2436',
         scwhite: '#C1C6BF',
-        scwhitehover: '#BEBD7E'
+        scwhitehover: '#BEBD7E',
+        projcolor: '#9cc9e3'
       },
     },
   },
