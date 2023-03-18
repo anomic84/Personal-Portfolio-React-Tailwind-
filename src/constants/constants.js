@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'WoW Connect',
-    description: "Wow connect was built around the idea of community. We wanted to build a platform where you could interact with other players of World of Warcraft. What makes this application stand out is the ability to have a profile where you can design characters, see other players characters, interact with others content, and finally to meet up and play with others on a server.",
+    description: "Wow connect was built around the idea of community. We wanted to build a platform where you could interact with other players of World of Warcraft. What makes this application stand out is the ability to have a profile where you can design characters, see other players' characters, interact with others' content, and finally to meet up and play with others on a server.",
     image: 'https://i.imgur.com/2ilx7B9.png',
     imagealt: 'Wow Connect',
     tags: ['MySQL', 'Sequelize', 'Express', 'Handlebars', 'Node'],
