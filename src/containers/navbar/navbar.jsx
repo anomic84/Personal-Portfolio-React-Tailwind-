@@ -23,8 +23,6 @@ const Navbar = () => {
           <p className="flex-nowrap items-center pl-5 text-xl 2xl:text-2xl">Made with React   </p>
         </div>
         <div className='hidden lg:flex pr-4'>
-          {/* <FaReact className=" text-scred" />
-          <SiTailwindcss className=" text-scred" /> */}
         </div>
       </div>
       <div className="pr-4 lg:hidden">
