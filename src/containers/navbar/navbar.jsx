@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { FaReact, FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
 
 
