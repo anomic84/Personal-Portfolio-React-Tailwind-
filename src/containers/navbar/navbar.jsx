@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 
 import { FaReact, FaBars, FaTimes } from 'react-icons/fa';
-import { SiTailwindcss } from 'react-icons/si';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './navbar.css'
+
+
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
