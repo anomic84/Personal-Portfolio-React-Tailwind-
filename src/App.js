@@ -10,7 +10,7 @@ const App = () => {
             <Hero />
         </div>
         <Projects />
-        <div className="">
+        <div className="bg-whitebg">
         <Tech />
         <Footer />
         </div>
