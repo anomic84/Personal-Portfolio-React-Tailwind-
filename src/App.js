@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Hero, Projects, Tech, Footer } from './containers';
-import "./App.css"
+
 
 const App = () => {
     return (
