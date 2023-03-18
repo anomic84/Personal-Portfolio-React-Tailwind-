@@ -8,7 +8,7 @@ const Footerr = () => {
       w-full grid grid-cols-3">
         <div className="flex flex-col max-w-[220px] w-full">
           <h4 className="text-scred font-semibold text-[10px] sm:text-[12px] leading-[12px] sm:leading-[24px] mb-[8px] sm:mb-[16px]">Email</h4>
-          <div className="text-[8px] sm:text-[16px] md:text-[18px] leading-[14px] sm:leading-[28px] md:leading-[30px]
+          <div className="text-[12px] sm:text-[20px] md:text-[22px] leading-[16px] sm:leading-[32px] md:leading-[34px]
           mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="mailto:spencerccarlson0@gmail.com">spencerccarlson0@gmail.com
           </div>
         </div>
