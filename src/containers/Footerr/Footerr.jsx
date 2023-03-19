@@ -5,11 +5,17 @@ const Footerr = () => {
   return (
     <section className="w-[calc(100vw-32)] ms:w-[calc(100vw-96)] pt-0 px-[16px] pb-[48px] sm:pt-[2rem] sm:px-[48px] sm:pb-[40px] max-w-[1040px] mx-[1rem] my-auto box-content" id="footer">
       <ul className=" pt-[32px] px-[4px] pb-[16px] sm:px-0 lg:pt-[40px] lg:pb-[28px] gap-[5px] sm:gap-[16px] lg:gap-[40px]
-      w-full grid grid-cols-3">
+      w-full grid grid-cols-2">
         <div className="flex flex-col max-w-[220px] w-full">
           <h4 className="text-scred font-semibold text-[10px] sm:text-[12px] leading-[12px] sm:leading-[24px] mb-[8px] sm:mb-[16px]">Email</h4>
           <div className="text-[12px] sm:text-[20px] md:text-[22px] leading-[16px] sm:leading-[32px] md:leading-[34px]
           mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="mailto:spencerccarlson0@gmail.com">spencerccarlson0@gmail.com
+          </div>
+        </div>
+        <div className="flex flex-col max-w-[220px] w-full">
+          <h4 className="text-scred font-semibold text-[10px] sm:text-[12px] leading-[12px] sm:leading-[24px] mb-[8px] sm:mb-[16px]">Resume</h4>
+          <div className="text-[12px] sm:text-[20px] md:text-[22px] leading-[16px] sm:leading-[32px] md:leading-[34px]
+          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="mailto:spencerccarlson0@gmail.com">drive.google.com
           </div>
         </div>
       </ul>

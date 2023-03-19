@@ -7,9 +7,12 @@ const Heror = () => {
       <div className="flex items-center flex-col mb-[3rem] lg:flex-1">
         {/* lg:mr-[5rem] ^^^^? */}
         <h1 className=" font-manrope font-bold bg-gradient-to-r from-scred to-scredhover text-transparent bg-clip-text text-[48px] leading-[60px] text-center tracking-[-0.04em] lg:text-[62px] lg:leading-[75px]">Curious and Creative</h1>
-        <div className="text-[8px] sm:text-[16px] md:text-[18px] leading-[14px] sm:leading-[28px] md:leading-[30px]
+        <div className="text-[12px] sm:text-[16px] md:text-[18px] leading-[14px] sm:leading-[28px] md:leading-[30px]
           mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="mailto:spencerccarlson0@gmail.com">spencerccarlson0@gmail.com
           </div>
+        <a className="text-[12px] sm:text-[16px] md:text-[18px] leading-[14px] sm:leading-[28px] md:leading-[30px]
+          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="https://drive.google.com/file/d/1DWjRfNMCml7tvjsMlnr-1VEG2kGycN1W/view?usp=share_link">Resume
+          </a>
         {/* lg:m-[1.5rem] lg:text-[16px] lg:leading-[24px] ^^^^^^^?*/}
       </div>
       <div className="flex justify-center items-center lg:flex-1">
