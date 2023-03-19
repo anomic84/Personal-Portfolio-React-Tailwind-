@@ -19,7 +19,7 @@ const Navbarr = () => {
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#home">Home</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#projects">Projects</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#tech">Technologies</a></p>
-          <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#footer">Contact</a></p>
+          {/* <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#footer">Contact</a></p> */}
         </div>
         <div className="hidden xs:flex flex-wrap pr-[16px] md:pr-0 md:flex-nowrap justify-center md:justify-none items-end">
           <a href="https://github.com/anomic84" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
@@ -45,7 +45,7 @@ const Navbarr = () => {
               <p><a href="#home">Home</a></p>
               <p><a href="#projects">Projects</a></p>
               <p><a href="#tech">Technologies</a></p>
-              <p><a href="#footer">Contact</a></p>
+              {/* <p><a href="#footer">Contact</a></p> */}
 
             </div>
           </div>
