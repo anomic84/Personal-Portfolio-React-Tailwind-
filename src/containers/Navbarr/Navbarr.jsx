@@ -22,13 +22,13 @@ const Navbarr = () => {
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#footer">Contact</a></p>
         </div>
         <div className="hidden xs:flex flex-wrap pr-[16px] md:pr-0 md:flex-nowrap justify-center md:justify-none items-end">
-          <a href="https://github.com/anomic84" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]">
+          <a href="https://github.com/anomic84" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
             <AiFillGithub  className="h-[2rem] w-[2rem]"/>
           </a>
-          <a href="https://www.linkedin.com/in/spencer-carlson-59054a259" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]">
+          <a href="https://www.linkedin.com/in/spencer-carlson-59054a259" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]"target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin className="h-[2rem] w-[2rem]" />
           </a>
-          <a href="https://www.instagram.com/spencercarlsonmusic/" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]">
+          <a href="https://www.instagram.com/spencercarlsonmusic/" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
             <AiFillInstagram className="h-[2rem] w-[2rem]" />
           </a>
         </div>

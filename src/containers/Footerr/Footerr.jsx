@@ -15,7 +15,7 @@ const Footerr = () => {
         <div className="flex flex-col max-w-[220px] w-full">
           <h4 className="text-scred font-semibold text-[10px] sm:text-[12px] leading-[12px] sm:leading-[24px] mb-[8px] sm:mb-[16px]">Resume</h4>
           <div className="text-[12px] sm:text-[20px] md:text-[22px] leading-[16px] sm:leading-[32px] md:leading-[34px]
-          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="https://drive.google.com/file/d/1DWjRfNMCml7tvjsMlnr-1VEG2kGycN1W/view?usp=share_link">drive.google.com
+          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="https://drive.google.com/file/d/1DWjRfNMCml7tvjsMlnr-1VEG2kGycN1W/view?usp=share_link" target="_blank" rel="noopener noreferrer">drive.google.com
           </div>
         </div>
       </ul>
@@ -26,13 +26,13 @@ const Footerr = () => {
         </div>
         <br />
         <div className="flex flex-wrap pr-[16px] md:pr-0 md:flex-nowrap justify-center md:justify-none items-center">
-          <a href="https://github.com/anomic84" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]">
+          <a href="https://github.com/anomic84" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
             <AiFillGithub size="3rem" />
           </a>
-          <a href="https://www.linkedin.com/in/spencer-carlson-59054a259" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]">
+          <a href="https://www.linkedin.com/in/spencer-carlson-59054a259" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size="3rem" />
           </a>
-          <a href="https://www.instagram.com/spencercarlsonmusic/" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]">
+          <a href="https://www.instagram.com/spencercarlsonmusic/" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
             <AiFillInstagram size="3rem" />
           </a>
         </div>
