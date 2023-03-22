@@ -13,7 +13,7 @@ const Techr = () => {
           <DiReact size="3rem" className="text-scred hidden md:flex" />
           <div className="flex flex-col ml-[18px] sm:ml-0">
             <h4 className="text-scred font-bold text-[20px] sm:text-[24px] md:text-[28px] leading-[28px] md:leading-[32px] tracking-[0.02em] mb-[4px] md:mb-[8px]">Front-End</h4>
-            <p className="text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[28px] md:leading-[30px]">Experience with <br />React, Next,<br />Handlebars, andVite</p>
+            <p className="text-[14px] sm:text-[16px] md:text-[18px] leading-[22px] sm:leading-[28px] md:leading-[30px]">Experience with <br />React, Next,<br />Handlebars, and Vite</p>
           </div>
         </li>
         <li className="mb-[14px]  max-w-[320px] flex flex-row sm:max-w-[203px] md:max-w-[320px] md:flex-col">
