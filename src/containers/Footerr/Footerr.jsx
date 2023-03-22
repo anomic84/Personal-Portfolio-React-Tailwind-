@@ -13,14 +13,14 @@ const Footerr = () => {
         <div className="flex flex-col max-w-[220px] w-full">
           <h4 className="text-scred font-semibold text-[10px] sm:text-[12px] leading-[12px] sm:leading-[24px] mb-[8px] sm:mb-[16px]">Email</h4>
           <div className="text-[12px] sm:text-[20px] md:text-[22px] leading-[16px] sm:leading-[32px] md:leading-[34px]
-          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="mailto:spencerccarlson0@gmail.com">Get in touch
+          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px] cursor-pointer" href="mailto:spencerccarlson0@gmail.com">Get in touch
           </div>
         </div>
         {/* Resume */}
         <div className="flex flex-col max-w-[220px] w-full">
-          <h4 className="text-scred font-semibold text-[10px] sm:text-[12px] leading-[12px] sm:leading-[24px] mb-[8px] sm:mb-[16px]">Resume</h4>
+          <h4 className="text-scred font-semibold text-[10px] sm:text-[12px] leading-[12px] sm:leading-[24px] mb-[8px] sm:mb-[16px] ">Resume</h4>
           <div className="text-[12px] sm:text-[20px] md:text-[22px] leading-[16px] sm:leading-[32px] md:leading-[34px]
-          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="https://drive.google.com/file/d/1DWjRfNMCml7tvjsMlnr-1VEG2kGycN1W/view?usp=share_link" target="_blank" rel="noopener noreferrer">drive.google.com
+          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px] cursor-pointer" href="https://drive.google.com/file/d/1DWjRfNMCml7tvjsMlnr-1VEG2kGycN1W/view?usp=share_link" target="_blank" rel="noopener noreferrer">drive.google.com
           </div>
         </div>
       </ul>

@@ -11,7 +11,7 @@ const Heror = () => {
           mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="mailto:spencerccarlson0@gmail.com">spencerccarlson0@gmail.com
         </div>
         <a className="text-[12px] sm:text-[16px] md:text-[18px] leading-[14px] sm:leading-[28px] md:leading-[30px]
-          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px]" href="https://drive.google.com/file/d/1DWjRfNMCml7tvjsMlnr-1VEG2kGycN1W/view?usp=share_link" target="_blank" rel="noopener noreferrer">Resume
+          mb-[8px] md:mb-[16px] text-scred relative left-0 duration-300 flex items-center hover:text-scredhover hover:left-[6px] cursor-pointer" href="https://drive.google.com/file/d/1DWjRfNMCml7tvjsMlnr-1VEG2kGycN1W/view?usp=share_link" target="_blank" rel="noopener noreferrer">Resume
         </a>
         {/* lg:m-[1.5rem] lg:text-[16px] lg:leading-[24px] ^^^^^^^?*/}
       </div>
