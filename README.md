@@ -22,9 +22,7 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [[Add live site URL here](https://spencerccarlson.com/)][(https://your-live-site-url.com)](https://spencerccarlson.com/)
-
+- Live Site URL: [(https://spencerccarlson.com/)]
 ## My process
 
 ### Built with
