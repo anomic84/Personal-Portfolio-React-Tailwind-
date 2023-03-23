@@ -22,7 +22,7 @@
 
 ### Links
 
-- Live Site URL: [(https://spencerccarlson.com/)]
+- Live Site URL: (https://spencerccarlson.com/)
 ## My process
 
 ### Built with
