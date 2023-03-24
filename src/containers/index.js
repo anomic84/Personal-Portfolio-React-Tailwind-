@@ -4,3 +4,4 @@ export { default as Heror } from './Heror/Heror';
 export { default as Projectsr } from './Projectsr/Projectsr';
 export { default as Techr } from './Techr/Techr';
 export { default as Footerr } from './Footerr/Footerr';
+export { default as Contact } from './Contact/Contact';

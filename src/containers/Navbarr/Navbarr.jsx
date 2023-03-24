@@ -7,6 +7,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 const Navbarr = () => {
 
   const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <div className="flex w-full justify-between items-center pt-[1rem] lg:pt-[2rem]">
       <div className="flex w-full items-center justify-between">
@@ -18,7 +19,7 @@ const Navbarr = () => {
           <p><a className="lg:mx-[1rem] hover:text-scredhover dark:hover:text-whitehover" href="#home">Home</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover dark:hover:text-whitehover" href="#projects">Projects</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover dark:hover:text-whitehover" href="#tech">Technologies</a></p>
-          {/* <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#footer">Contact</a></p> */}
+          <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#contact">Contact</a></p>
         </div>
         <div className="hidden xs:flex flex-wrap pr-[16px] md:pr-0 md:flex-nowrap justify-center md:justify-none items-end">
           {/* <BsFillMoonFill className="moon cursor-pointer" />
@@ -47,7 +48,7 @@ const Navbarr = () => {
               <p><a href="#home">Home</a></p>
               <p><a href="#projects">Projects</a></p>
               <p><a href="#tech">Technologies</a></p>
-              {/* <p><a href="#footer">Contact</a></p> */}
+              <p><a href="#contact">Contact</a></p>
 
             </div>
           </div>
