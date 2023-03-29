@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbarr, Heror, Projectsr, Techr, Footerr, Contact } from './containers';
+import { Navbarr, Heror, Projectsr, Techr, Footerr, Contact, Contoct } from './containers';
 
 
 const App = () => {
@@ -12,7 +12,8 @@ const App = () => {
             <Projectsr />
             <div className="bg-whitebg">
                 <Techr />
-                <Contact />
+                {/* <Contact /> */}
+                <Contoct />
                 <Footerr />
             </div>
         </div>

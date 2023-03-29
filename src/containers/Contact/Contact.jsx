@@ -1,12 +1,13 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+
 
 const Contact = () => {
   const form = useRef();
-
+const [showMessage, setShowMessage] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
-
+setTimeout(() => {setShowMessage(false)}, 5000)
     emailjs.sendForm(
       'service_24pxcl3',
       'template_w1e3drq',
@@ -15,6 +16,8 @@ const Contact = () => {
       .then((result) => {
         console.log(result.text);
         console.log("Message sent!");
+        setShowMessage(true)
+         
         e.target.reset()
       }, (error) => {
         console.log(error.text);
@@ -30,20 +33,21 @@ const Contact = () => {
       </div>
       <form ref={form} onSubmit={sendEmail} className='flex flex-col  px-8 py-2'>
         <div className="w-[90%] md:w-[80%] lg:w-[65%] max-w-[1024px] mx-auto flex flex-col">
-          <label className="text-scred text-[20px] sm:text-[22px] md:text-[24px] leading-[22px] sm:leading-[28px] md:leading-[30px] pb-1">Name</label>
+          <label className="text-scred text-[20px] sm:text-[22px] md:text-[24px] leading-[22px] sm:leading-[28px] md:leading-[30px] pb-1" required>Name</label>
           <input type="text" name="user_name" className="rounded bg-[#d4c0c0] border border-scred text-slate-800 font-[500] p-1" />
         </div>
         <div className="w-[90%] md:w-[80%] lg:w-[65%] max-w-[1024px] mx-auto flex flex-col">
-          <label className="text-scred text-[20px] sm:text-[22px] md:text-[24px] leading-[22px] sm:leading-[28px] md:leading-[30px] pb-1 pt-2">Email</label>
+          <label className="text-scred text-[20px] sm:text-[22px] md:text-[24px] leading-[22px] sm:leading-[28px] md:leading-[30px] pb-1 pt-2" required>Email</label>
           <input type="email" name="user_email" className="rounded bg-[#d4c0c0] border border-scred text-slate-800 font-[500] p-1" />
         </div>
         <div className="w-[90%] md:w-[80%] lg:w-[65%] max-w-[1024px] mx-auto flex flex-col">
-          <label className="text-scred text-[20px] sm:text-[22px] md:text-[24px] leading-[22px] sm:leading-[28px] md:leading-[30px] pb-1 pt-2">Message</label>
+          <label className="text-scred text-[20px] sm:text-[22px] md:text-[24px] leading-[22px] sm:leading-[28px] md:leading-[30px] pb-1 pt-2" required>Message</label>
           <textarea name="message" className="rounded bg-[#d4c0c0] border border-scred text-slate-800 font-[500] p-1" />
         </div>
         <div className="flex justify-center pt-2">
           <input type="submit" value="Send" className="mb-8 rounded bg-scred text-projcolor w-[40%] sm:w-[25%] p-2" />
         </div>
+        {showMessage && <p className="messagesentbg text-scredhover text-lg py-1 duration-300 sm:w-[25%] sm:self-center">Message Sent!</p>}
       </form>
 
     </>

@@ -65,3 +65,26 @@
 .display-none {
     @apply hidden;
 }
+
+.messagesentbg 
+{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(90deg, #C1C6BF 0%, #6C9D6F 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, #C1C6BF 0%, #6C9D6F 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(90deg, #C1C6BF 0%, #6C9D6F 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6C9D6F', endColorstr='#C1C6BF', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(90deg, #C1C6BF 0%, #6C9D6F 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(90deg, #C1C6BF 0%, #6C9D6F 100%);
+
+}
