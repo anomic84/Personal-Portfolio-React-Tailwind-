@@ -12,7 +12,6 @@ const App = () => {
             <Projectsr />
             <div className="bg-whitebg">
                 <Techr />
-                {/* <Contact /> */}
                 <Contoct />
                 <Footerr />
             </div>
