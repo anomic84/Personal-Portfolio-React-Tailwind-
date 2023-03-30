@@ -15,7 +15,7 @@ const Contoct = () => {
             name: "name",
             type: "text",
             placeholder: "Name",
-            errorMessage: "Name needs to be longer than 2 characters!",
+            errorMessage: "Name Needed!",
             label: "Name",
           
             required: true,
@@ -34,7 +34,7 @@ const Contoct = () => {
             name: "message",
             type: "test",
             placeholder: "Message",
-            errorMessage: "Message needs to be between 6 and 500 characters!",
+            errorMessage: "Message Needed!",
             label: "Message",
           
             required: true,
