@@ -17,7 +17,7 @@ const Contoct = () => {
             placeholder: "Name",
             errorMessage: "Name needs to be longer than 2 characters!",
             label: "Name",
-            pattern: "^[A-Za-z0-9,.?!@#$%^&*()]{2,50}$",
+          
             required: true,
         },
         {
@@ -27,6 +27,7 @@ const Contoct = () => {
             placeholder: "Email",
             errorMessage: "It should be a valid email address!",
             label: "Email",
+            pattern: "^[a-zA-Z0–9+_.-]+@[a-zA-Z0–9.-]+$",
             required: true,
         },
         {
@@ -36,17 +37,18 @@ const Contoct = () => {
             placeholder: "Message",
             errorMessage: "Message needs to be between 6 and 500 characters!",
             label: "Message",
-            pattern: "^[A-Za-z0-9]{6,500}$",
+          
             required: true,
         }
     ]
 
 
 
-
     const onChange = (e) => {
+        console.log(e.target.value)
         setValues({ ...values, [e.target.name]: e.target.value })
     }
+
     // Emailjs
     const form = useRef();
     const [showMessage, setShowMessage] = useState(false);

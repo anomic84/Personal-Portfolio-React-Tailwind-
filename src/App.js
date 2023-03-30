@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbarr, Heror, Projectsr, Techr, Footerr, Contact, Contoct } from './containers';
+import { Navbarr, Heror, Projectsr, Techr, Footerr, Contoct } from './containers';
 
 
 const App = () => {
