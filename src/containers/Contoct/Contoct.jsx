@@ -27,7 +27,6 @@ const Contoct = () => {
             placeholder: "Email",
             errorMessage: "It should be a valid email address!",
             label: "Email",
-            pattern: "^[a-zA-Z0–9+_.-]+@[a-zA-Z0–9.-]+$",
             required: true,
         },
         {
