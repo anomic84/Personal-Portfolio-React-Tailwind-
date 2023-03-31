@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Spencer Carlson\'s Music Website',
+    description: "I made a website for my music using create-react-app. Comes with links to my entire discrography and people i've worked with, as well as a contact form.",
+    image: 'https://i.imgur.com/9heFAHl.jpg',
+    imagealt: 'Spencer Carlson Music',
+    tags: ['React', 'TailwindCss', 'EmailJS'],
+    source: 'https://github.com/anomic84/musicportfolio',
+    visit: 'https://spencercarlsonmusic.com/',
+    id: 0,
+  },
+  {
     title: 'WoW Connect',
     description: "Wow connect was built around the idea of community. We wanted to build a platform where you could interact with other players of World of Warcraft. What makes this application stand out is the ability to have a profile where you can design characters, see other players' characters, interact with others' content, and finally to meet up and play with others on a server.",
     image: 'https://i.imgur.com/2ilx7B9.png',
@@ -7,7 +17,7 @@ export const projects = [
     tags: ['MySQL', 'Sequelize', 'Express', 'Handlebars', 'Node'],
     source: 'https://github.com/anomic84/WoW-Connect',
     visit: 'https://ancient-dusk-17399.herokuapp.com/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Employee Tracker',
@@ -17,7 +27,7 @@ export const projects = [
     tags: ['MySQL', 'Express', 'Node'],
     source: 'https://github.com/anomic84/Employee-Tracker',
     visit: 'https://github.com/anomic84/Employee-Tracker',
-    id: 1,
+    id: 2,
   },
   {
     title: 'US Brewery Finder',
@@ -27,7 +37,7 @@ export const projects = [
     tags: ['JavaScript', 'API', 'HTML', 'CSS'],
     source: 'https://github.com/anomic84/US-Brewery-Finder',
     visit: 'https://anomic84.github.io/US-Brewery-Finder/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Fake Bank Web App (React)',
@@ -37,6 +47,6 @@ export const projects = [
     tags: ['React', 'TailwindCss', 'Vite'],
     source: 'https://github.com/anomic84/bank-modern-app',
     visit: 'https://main--dancing-speculoos-bdc7b0.netlify.app/',
-    id: 3,
+    id: 4,
   },
 ];
