@@ -10,49 +10,55 @@ const Navbarr = () => {
 
   return (
     <div className="flex w-full justify-between items-center pt-[1rem] lg:pt-[2rem]">
-      <div className="flex w-full items-center justify-between">
+      <div className="hidden lg:flex w-full items-center justify-between">
         <div className="">
-          <p className="text-scred dark:text-white font-manrope font-semibold text-[27px] pl-4">Spencer C. Carlson</p>
+          <p className=" text-scred  font-manrope font-semibold text-[27px] pl-4">Spencer C. Carlson</p>
         </div>
         <div className="hidden lg:flex flex-row items-between
-         text-scred dark:text-white text-lg 2xl:text-2xl">
-          <p><a className="lg:mx-[1rem] hover:text-scredhover dark:hover:text-whitehover" href="#home">Home</a></p>
-          <p><a className="lg:mx-[1rem] hover:text-scredhover dark:hover:text-whitehover" href="#projects">Projects</a></p>
-          <p><a className="lg:mx-[1rem] hover:text-scredhover dark:hover:text-whitehover" href="#tech">Technologies</a></p>
+         text-scred  text-lg 2xl:text-2xl">
+          <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#home">Home</a></p>
+          <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#projects">Projects</a></p>
+          <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#tech">Technologies</a></p>
           <p><a className="lg:mx-[1rem] hover:text-scredhover" href="#contact">Contact</a></p>
         </div>
         <div className="hidden xs:flex flex-wrap pr-[16px] md:pr-0 md:flex-nowrap justify-center md:justify-none items-end">
-          {/* <BsFillMoonFill className="moon cursor-pointer" />
-          <BsFillSunFill className="sun cursor-pointer" /> */}
-
-          <a href="https://github.com/anomic84" className="duration-300 text-scred dark:text-white rounded-[50px] p-[8px] hover:text-whitebg dark:hover:text-scred hover:bg-scredhover dark:hover:bg-whitehover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/anomic84" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg hover:bg-scredhover  cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
             <AiFillGithub className="h-[2rem] w-[2rem]" />
           </a>
-          <a href="https://www.linkedin.com/in/spencer-carlson-59054a259" className="duration-300 text-scred dark:text-white rounded-[50px] p-[8px] hover:text-whitebg dark:hover:text-scred hover:bg-scredhover dark:hover:bg-whitehover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/spencer-carlson-59054a259" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg  hover:bg-scredhover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin className="h-[2rem] w-[2rem]" />
           </a>
-          <a href="https://www.instagram.com/spencercarlsonmusic/" className="duration-300 text-scred dark:text-white rounded-[50px] p-[8px] hover:text-whitebg dark:hover:text-scred hover:bg-scredhover dark:hover:bg-whitehover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/spencercarlsonmusic/" className="duration-300 text-scred rounded-[50px] p-[8px] hover:text-whitebg  hover:bg-scredhover cursor-pointer scale-[1.2px]" target="_blank" rel="noopener noreferrer">
             <AiFillInstagram className="h-[2rem] w-[2rem]" />
           </a>
         </div>
         <div className='hidden lg:flex pr-4'>
         </div>
       </div>
-      <div className="pr-4 lg:hidden">
+      {/* // TABLET */}
+      
+      {/* mobile */}
+      <div className="lg:hidden flex justify-between items-center px-4 w-full">
         {toggleMenu
-          ? <FaTimes color="#530E1A" size={27} onClick={() => setToggleMenu(false)} />
-          : <FaBars color="#530E1A" size={27} onClick={() => setToggleMenu(true)} />}
-        {toggleMenu && (
-          <div className="p-[2rem]">
-            <div className="text-scred dark:text-white sm:text-xl">
-              <p><a href="#home">Home</a></p>
-              <p><a href="#projects">Projects</a></p>
-              <p><a href="#tech">Technologies</a></p>
-              <p><a href="#contact">Contact</a></p>
+          ? ''
+          : <h1 className=" text-scred  font-manrope font-semibold text-[27px] pl-4">Spencer C. Carlson</h1>
+        }
+        <div className='flex justify-center w-full'>
+          {toggleMenu
+            ? <FaTimes color="#530E1A" size={27} onClick={() => setToggleMenu((prev) => !prev)} />
+            : <FaBars color="#530E1A" size={27} onClick={() => setToggleMenu((prev) => !prev)} />}
+          {toggleMenu && (
+            <div className="z-10 h-screen w-[100%] flex justify-center items-center">
+              <div className="text-scred  text-center flex flex-col justify-center w-full">
+                <p className='py-5 text-xl sm:text-3xl text-scred'><a href="#home">Home</a></p>
+                <p className='py-5 text-xl sm:text-3xl text-scred'><a href="#projects">Projects</a></p>
+                <p className='py-5 text-xl sm:text-3xl text-scred'><a href="#tech">Technologies</a></p>
+                <p className='py-5 text-xl sm:text-3xl text-scred'><a href="#contact">Contact</a></p>
 
+              </div>
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   )
