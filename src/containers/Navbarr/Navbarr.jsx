@@ -12,12 +12,13 @@ const Navbarr = () => {
     <div className="flex w-full justify-between items-center pt-[1rem] lg:pt-[2rem]">
       <div className="hidden md:flex w-full items-center justify-between">
         <div className="">
-          <p className=" text-scred  font-manrope font-semibold text-[27px] pl-4">Spencer C. Carlson</p>
+          <p className=" text-scred  font-manrope font-semibold text-[24px] pl-4">Spencer C. Carlson</p>
         </div>
         <div className="hidden md:flex flex-row items-between
-         text-scred  text-lg 2xl:text-2xl">
+         text-scred text-sm lg:text-lg 2xl:text-2xl">
           <p><a className="md:mx-[0.5rem] lg:mx-[1rem] hover:text-scredhover" href="#home">Home</a></p>
           <p><a className="md:mx-[0.5rem] lg:mx-[1rem] hover:text-scredhover" href="#projects">Projects</a></p>
+          <p><a className="md:mx-[0.5rem] lg:mx-[1rem] hover:text-scredhover" href="#about">About</a></p>
           <p><a className="md:mx-[0.5rem] lg:mx-[1rem] hover:text-scredhover" href="#tech">Technologies</a></p>
           <p><a className="md:mx-[0.5rem] lg:mx-[1rem] hover:text-scredhover" href="#contact">Contact</a></p>
         </div>
@@ -52,6 +53,7 @@ const Navbarr = () => {
               <div className="text-scred  text-center flex flex-col justify-center w-full">
                 <p className='py-5 text-xl sm:text-3xl text-scred'><a href="#home">Home</a></p>
                 <p className='py-5 text-xl sm:text-3xl text-scred'><a href="#projects">Projects</a></p>
+                <p className="py-5 text-xl sm:text-3xl text-scred"><a href="#about">About</a></p>
                 <p className='py-5 text-xl sm:text-3xl text-scred'><a href="#tech">Technologies</a></p>
                 <p className='py-5 text-xl sm:text-3xl text-scred'><a href="#contact">Contact</a></p>
 
