@@ -3,11 +3,11 @@ import { DiNpm, DiReact, DiSass } from 'react-icons/di';
 
 const Techr = () => {
   return (
-<section className="flex flex-col w-full pt-[16px] px-[16px] pb-0 mt-[-5rem] grid-cols-[1fr 1fr] mx-auto max-w-[1040px] md:pt-[32px] md:px-[48px] md:pb-0 " id="tech">
-      <div className="w-[32px] h-[2px] rounded-[10px] gradient__bg3 my-[2rem] ml-[1rem] sm:w-[48px] sm:h-[4px] md:w-[64px] md:h-[6px]" />
+<section className="flex flex-col w-full pt-[16px] px-[16px] pb-0 grid-cols-[1fr 1fr] mx-auto max-w-[1040px] md:pt-[32px] md:px-[48px] md:pb-0 " id="tech">
+      {/* <div className="w-[32px] h-[2px] rounded-[10px] gradient__bg3 my-[2rem] ml-[1rem] sm:w-[48px] sm:h-[4px] md:w-[64px] md:h-[6px]" /> */}
       <br />
       <h2 className="text-[28px] sm:text-[56px] md:text-[65px] sm:leading-[56px] md:leading-[72px] font-bold inline-block bg-gradient-to-r  from-scred to-scredhover text-transparent bg-clip-text  text-center 
-      mb-[8px] pt-[16px] sm:pt-[40px] md:pt-[58px] pb-[8px] sm:pb-[12px] md:pb-[16px] max-w-full sm:mb-[20px] md:mb-[16px]">Technologies</h2>
+      mb-[8px] sm:pt-[40px] md:pt-[58px] pb-[8px] sm:pb-[12px] md:pb-[16px] max-w-full sm:mb-[20px] md:mb-[16px]">Technologies</h2>
       <ul className="flex  sm:grid flex-col mx-[32px] my-0 sm:mx-[62px] lg:mx-[3rem] sm:gap-[24px] md:gap-[40px] list-none sm:grid-cols-3">
         <li className="mb-[14px]  max-w-[320px] flex flex-row sm:max-w-[203px] md:max-w-[320px] md:flex-col">
           <DiReact size="3rem" className="text-scred hidden md:flex" />

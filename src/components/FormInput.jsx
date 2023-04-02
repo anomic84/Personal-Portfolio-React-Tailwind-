@@ -9,7 +9,7 @@ const FormInput = (props) => {
         setFocused(true);
     };
     return (
-        <div className='w-[90%] md:w-[80%] lg:w-[65%] max-w-[1024px] mx-auto flex flex-col'>
+        <div className='w-[90%] md:w-[80%] lg:w-[65%] max-w-[600px] mx-auto flex flex-col'>
             <label className='text-scred text-[20px] sm:text-[22px] md:text-[24px] leading-[22px] sm:leading-[28px] md:leading-[30px] pb-1'>{label}</label>
             <input
                 className='rounded bg-[#d4c0c0] border border-scred text-slate-800 font-[500] p-1'

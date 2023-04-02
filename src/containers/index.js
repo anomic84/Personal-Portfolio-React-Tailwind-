@@ -5,3 +5,4 @@ export { default as Projectsr } from './Projectsr/Projectsr';
 export { default as Techr } from './Techr/Techr';
 export { default as Footerr } from './Footerr/Footerr';
 export { default as Contoct } from './Contoct/Contoct';
+export { default as About } from './About/About';
