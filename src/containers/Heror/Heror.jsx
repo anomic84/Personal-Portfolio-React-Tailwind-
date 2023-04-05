@@ -3,7 +3,7 @@ import me from '../../assets/Me.jpg'
 
 const Heror = () => {
   return (
-    <div className="flex flex-col py-[4rem] px-[2rem] lg:flex-row lg:items-center" id="home">
+    <section className="flex flex-col py-[4rem] px-[2rem] lg:flex-row lg:items-center" id="home">
       <div className="flex items-center flex-col mb-[3rem] lg:flex-1">
         {/* lg:mr-[5rem] ^^^^? */}
         <h1 className=" font-manrope font-bold bg-gradient-to-r from-scred to-scredhover text-transparent bg-clip-text text-[48px] leading-[60px] text-center tracking-[-0.04em] lg:text-[62px] lg:leading-[75px]">Curious and Creative</h1>
@@ -28,7 +28,7 @@ const Heror = () => {
         </a>
         {/* sm:border-[9px] md:w-[70%] md:h-[70%] md:border-[12px] */}
       </div>
-    </div>
+    </section>
   )
 }
 

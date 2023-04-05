@@ -9,7 +9,7 @@ const Navbarr = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="flex w-full justify-between items-center pt-[1rem] lg:pt-[2rem]">
+    <nav className="flex w-full justify-between items-center pt-[1rem] lg:pt-[2rem]">
       <div className="hidden md:flex w-full items-center justify-between">
         <div className="">
           <p className=" text-scred  font-manrope font-semibold text-[24px] pl-4">Spencer C. Carlson</p>
@@ -62,7 +62,7 @@ const Navbarr = () => {
           )}
         </div>
       </div>
-    </div>
+    </nav>
   )
 }
 

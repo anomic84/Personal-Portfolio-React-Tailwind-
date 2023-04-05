@@ -73,9 +73,9 @@ const Contoct = () => {
     };
 
 
-    console.log(values);
+
     return (
-        <div>
+        <section>
             <div className="flex justify-center pt-8 " id="contact">
                 <h1 className="text-[28px] sm:text-[48px] md:text-[56px] sm:leading-[56px] md:leading-[72px] font-bold inline-block bg-gradient-to-r  from-scred to-scredhover text-transparent bg-clip-text 
       mb-[8px] pt-[16px] sm:pt-[40px] md:pt-[58px] pb-[8px]  max-w-full sm:mb-[20px] md:mb-[16px] text-center">Get in touch</h1>
@@ -93,7 +93,7 @@ const Contoct = () => {
                 <button className="my-8 mx-auto  rounded bg-scred text-projcolor w-[40%] sm:w-[25%] p-2">Submit</button>
                 {showMessage && <p className="messagesentbg text-scredhover text-lg py-1 duration-300 sm:w-[25%] sm:self-center">Message Sent!</p>}
             </form>
-        </div>
+        </section>
     )
 }
 
