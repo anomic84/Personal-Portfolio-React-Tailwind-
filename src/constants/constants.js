@@ -1,5 +1,5 @@
 import screenshot from '../assets/screenshot.png';
-import spencerccarlson from '../assets/spencerccarlson.png';
+import spencermusic from '../assets/spencermusic.png'
 import wowconnect from '../assets/wowconnect.png';
 import fakebank from '../assets/fakebank.png';
 import employeetracker from '../assets/employeetracker.png';
@@ -9,7 +9,7 @@ export const projects = [
   {
     title: 'Spencer Carlson\'s Music Website',
     description: "I made a website for my music using create-react-app. Comes with links to my entire discrography and people i've worked with, as well as a contact form.",
-    image: spencerccarlson,
+    image: spencermusic,
     imagealt: 'Spencer Carlson Music',
     tags: ['React', 'TailwindCss', 'EmailJS'],
     source: 'https://github.com/anomic84/musicportfolio',
