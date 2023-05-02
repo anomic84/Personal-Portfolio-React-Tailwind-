@@ -7,6 +7,16 @@ import usbrewfinder from '../assets/usbreweryfinder.png';
 
 export const projects = [
   {
+    title: 'TasteBuds',
+    description: "A social media app that allows users to never dine alone again! This app allows the user to create a profile, see other users posts, create posts, and join other events!",
+    image: screenshot,
+    imagealt: 'TasteBuds',
+    tags: ['React', 'Express', 'Node', 'MongoDB', 'TailwindCSS'],
+    source: 'https://github.com/anomic84/TasteBuds',
+    visit: 'https://safe-everglades-81975.herokuapp.com/',
+    id: 0,
+  },
+  {
     title: 'Spencer Carlson\'s Music Website',
     description: "I made a website for my music using create-react-app. Comes with links to my entire discrography and people i've worked with, as well as a contact form.",
     image: spencermusic,
@@ -14,7 +24,7 @@ export const projects = [
     tags: ['React', 'TailwindCss', 'EmailJS'],
     source: 'https://github.com/anomic84/musicportfolio',
     visit: 'https://spencercarlsonmusic.com/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'WoW Connect',
@@ -24,16 +34,6 @@ export const projects = [
     tags: ['MySQL', 'Sequelize', 'Express', 'Handlebars', 'Node'],
     source: 'https://github.com/anomic84/WoW-Connect',
     visit: 'https://ancient-dusk-17399.herokuapp.com/',
-    id: 1,
-  },
-  {
-    title: 'TasteBuds',
-    description: "A social media app that allows users to never dine alone again! This app allows the user to create a profile, see other users posts, create posts, and join other events!",
-    image: screenshot,
-    imagealt: 'TasteBuds',
-    tags: ['React', 'Express', 'Node', 'MongoDB', 'TailwindCSS'],
-    source: 'https://github.com/anomic84/TasteBuds',
-    visit: 'https://safe-everglades-81975.herokuapp.com/',
     id: 2,
   },
   {
