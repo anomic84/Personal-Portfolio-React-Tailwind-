@@ -1,3 +1,8 @@
+import screenshot from '../assets/screenshot.png';
+import spencerccarlson from '../assets/spencerccarlson.png';
+import wowconnect from '../assets/wowconnect.png'
+
+
 export const projects = [
   {
     title: 'Spencer Carlson\'s Music Website',
@@ -22,14 +27,14 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Employee Tracker',
-    description: "An interface to allow the user to manage their database of employees, as to which role (or job) they fit into, their pay, and who's their manager. This application gives the user the ability to add and view departments of their company, view and add roles to their company, and view or add employees, as well as update their information.",
+    title: 'TasteBuds',
+    description: "A social media app that allows users to never dine alone again! This app allows the user to create a profile, see other users posts, create posts, and join other events!",
     // image: '../assets/employeetracker.png',
-    image: 'https://i.imgur.com/v2eHGt5.png',
-    imagealt: 'Employee Tracker',
-    tags: ['MySQL', 'Express', 'Node'],
-    source: 'https://github.com/anomic84/Employee-Tracker',
-    visit: 'https://github.com/anomic84/Employee-Tracker',
+    image: { screenshot },
+    imagealt: 'TasteBuds',
+    tags: ['React', 'Express', 'Node', 'MongoDB', 'TailwindCSS'],
+    source: 'https://github.com/anomic84/TasteBuds',
+    visit: 'https://safe-everglades-81975.herokuapp.com/',
     id: 2,
   },
   {
