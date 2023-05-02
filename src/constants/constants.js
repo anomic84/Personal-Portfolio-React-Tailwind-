@@ -1,14 +1,14 @@
 import screenshot from '../assets/screenshot.png';
 import spencerccarlson from '../assets/spencerccarlson.png';
-import wowconnect from '../assets/wowconnect.png'
-
-
+import wowconnect from '../assets/wowconnect.png';
+import fakebank from '../assets/fakebank.png';
+import employeetracker from '../assets/employeetracker.png';
+import usbrewfinder from '../assets/usbreweryfinder.png';
 export const projects = [
   {
     title: 'Spencer Carlson\'s Music Website',
     description: "I made a website for my music using create-react-app. Comes with links to my entire discrography and people i've worked with, as well as a contact form.",
-    image: 'https://i.imgur.com/9heFAHl.jpg',
-    // image: '../assets/spencerccarlson.png',
+    image: spencerccarlson,
     imagealt: 'Spencer Carlson Music',
     tags: ['React', 'TailwindCss', 'EmailJS'],
     source: 'https://github.com/anomic84/musicportfolio',
@@ -18,8 +18,7 @@ export const projects = [
   {
     title: 'WoW Connect',
     description: "Wow connect was built around the idea of community. We wanted to build a platform where you could interact with other players of World of Warcraft. What makes this application stand out is the ability to have a profile where you can design characters, see other players' characters, interact with others' content, and finally to meet up and play with others on a server.",
-    // image: '../assets/wowconnect.png',
-    image: 'https://i.imgur.com/2ilx7B9.png',
+    image: wowconnect,
     imagealt: 'Wow Connect',
     tags: ['MySQL', 'Sequelize', 'Express', 'Handlebars', 'Node'],
     source: 'https://github.com/anomic84/WoW-Connect',
@@ -29,8 +28,7 @@ export const projects = [
   {
     title: 'TasteBuds',
     description: "A social media app that allows users to never dine alone again! This app allows the user to create a profile, see other users posts, create posts, and join other events!",
-    // image: '../assets/employeetracker.png',
-    image: { screenshot },
+    image: screenshot,
     imagealt: 'TasteBuds',
     tags: ['React', 'Express', 'Node', 'MongoDB', 'TailwindCSS'],
     source: 'https://github.com/anomic84/TasteBuds',
