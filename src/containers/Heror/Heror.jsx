@@ -24,8 +24,8 @@ const Heror = () => {
       {/* photo */}
       <div className="flex justify-center items-center lg:flex-1">
         <a target="_blank" rel="noopener noreferrer" href="https://spencercarlsonmusic.com/">
-          <img className="border-[6px] border-scred w-[85%] h-[85%] rounded-[50%] 
-        sm:border-[9px]  md:w-[58%] md:h-[58%] 
+          <img className="border-[6px] border-scred w-[85%] h-[85%] rounded-[50%]  mx-auto
+        sm:border-[9px]  md:w-[58%] md:h-[58%]
         lg:border-[12px] lg:w-full lg:h-full 
         2xl:w-[85%] 2xl:h-[85%] 
         çmin-[1710px]:w-[75%] min-[1710px]:h-[75%] min-[1910px]:w-[70%] min-[1910px]:h-[70%]"
